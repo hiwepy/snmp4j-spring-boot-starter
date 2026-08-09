@@ -17,7 +17,12 @@ package org.snmp4j.spring.boot;
 
 import java.util.Properties;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties(PoiProperties.PREFIX)
 public class PoiProperties {
+
+    public static final String PREFIX = "poi";
 
 	public static final String DEFAULT_TEMPLATE_LOADER_PATH = "classpath:/templates/";
 
