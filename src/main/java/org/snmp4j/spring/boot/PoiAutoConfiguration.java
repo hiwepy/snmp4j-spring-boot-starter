@@ -15,6 +15,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @AutoConfigureAfter(WebMvcAutoConfiguration.class)
 @EnableConfigurationProperties(PoiProperties.class)
+/**\n * Auto-configuration for PoiAutoConfiguration.\n *\n * @author [@Loong Wan](https://github.com/loong10k)\n * @since 1.0.0\n */
 public class PoiAutoConfiguration {
 	
 	private static final Logger logger = LoggerFactory.getLogger(PoiAutoConfiguration.class);
