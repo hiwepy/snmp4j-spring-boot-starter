@@ -29,10 +29,18 @@ public class PoiAutoConfiguration {
 		logger.info("PoiAutoConfiguration initialized with prefix '{}'", PoiProperties.PREFIX);
 	}
 
+    /**
+     * <p>Returns the application context.</p>
+     * @return the get application context
+     */
 	public ApplicationContext getApplicationContext() {
 		return applicationContext;
 	}
 
+    /**
+     * <p>Returns the properties.</p>
+     * @return the get properties
+     */
 	public PoiProperties getProperties() {
 		return properties;
 	}
