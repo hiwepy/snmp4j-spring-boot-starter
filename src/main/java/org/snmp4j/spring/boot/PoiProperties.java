@@ -20,6 +20,12 @@ import java.util.Properties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(PoiProperties.PREFIX)
+/**
+ * <p>Configuration properties for Poi.</p>
+ *
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
+ */
 public class PoiProperties {
 
     public static final String PREFIX = "poi";
